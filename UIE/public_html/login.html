@@ -14,7 +14,7 @@ and open the template in the editor.
     <body>
         <header>
             <a href="">
-                <img src="images/pu_logo_l.png" alt="Power Unlimited Logo"/>
+                <img src="images/pu_logo_l.png" alt="Power Unlimited Logo" id="logo"/>
             </a>
             <nav>
                 <ul>
@@ -32,10 +32,10 @@ and open the template in the editor.
             <section class="article">
                 <form action="" method="POST">
                     <label for="email">E-mail</label>
-                    <input type="text" name="email" placeholder="Email"/>
+                    <input type="text" name="email" id="email" placeholder="Email"/>
                     <label for="wachtwoord">Wachtwoord</label>
-                    <input type="text" name="wachtwoord" placeholder="Wachtwoord"/>
-                    <input type="checkbox" name="onhouden" value="onthouden">
+                    <input type="text" name="wachtwoord" id="wachtwoord" placeholder="Wachtwoord"/>
+                    <input type="checkbox" name="onhouden" id="onhouden" value="onthouden">
                     <label for="onhouden">Onthouden</label>
                     <a href="">Wachtwoord vergeten?</a>
                     <input type="submit" value="Login">
@@ -44,8 +44,8 @@ and open the template in the editor.
             </section>
         </section>
         <footer>
-            <a href="www.facebook.com"><img src="image" alt="Facebook"/></a>
-            <a href="www.twitter.com"><img src="image" alt="Twitter"/></a>
+            <a href="http://www.facebook.com/"><span class="facebook-icon"></span></a>
+            <a href="http://www.twitter.com/"><span class="twitter-icon"></span></a>
         </footer>
     </body>
 </html>

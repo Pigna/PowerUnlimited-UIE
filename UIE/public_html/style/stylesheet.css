@@ -53,12 +53,49 @@ body{
     background-color: #33709C;
 }
 footer{
-    height: 100px;
+    height: 46px;
     background-color: white;
     margin-top: 10px;
 }
 section#content{
-    width: 800px;
+    width: 98%;
     margin: 0 auto;
 }
+.content-item, .article{
+    background-color: #fcfcfc;
+    border: 1px solid #eeeeee;
+    margin-bottom: 5px;
+}
+.content-item:hover{
+    border: 1px solid #00b1f5;
+}
+.content-item img{
+    display: block;
+    width: 25%;
+    float: left;
+}
+.content-item-link{
+    display: block;
+}
 /*#fcfcfc*/
+#logo{
+    margin: 2px 0 0 4px;
+    height: 45px;
+}
+.facebook-icon, .twitter-icon{
+    margin-top: 2px;
+    display: inline-block;
+    height: 41px;
+    width: 45px;
+}
+.facebook-icon{
+    background-image: url("../images/pu_facebook.png")
+}
+.twitter-icon{
+    background-image: url("../images/pu_twitter.png")
+}
+iframe{
+    border: 0px;
+    width: 100%;
+    height: auto;
+}
